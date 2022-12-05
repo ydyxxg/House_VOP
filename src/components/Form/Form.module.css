@@ -1,0 +1,65 @@
+.form {
+    display: flex;
+    background: #242B33;
+    height: 400px;
+    justify-content: center;
+}
+
+.form .conteiner {
+    height: 140px;
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 50px;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.form .conteiner span {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    color: #D4C17F;
+}
+
+.form .conteiner .input {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 30px;
+    color: white;
+}
+
+.form .conteiner .input p {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #E7E7E7;
+}
+
+.form .conteiner .input input {
+    width: 255px;
+    height: 50px;
+    background: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.151);
+    text-align: center;
+    border: none;
+}
+
+.form .conteiner .input input::-webkit-input-placeholder { 
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #BEBEBE;
+}
+
+.form .conteiner .input button {
+    width: 255px;
+    height: 50px;
+    border: none;
+    background: #D4C17F;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+

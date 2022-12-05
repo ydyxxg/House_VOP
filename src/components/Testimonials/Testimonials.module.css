@@ -1,0 +1,26 @@
+.testimonials {
+    display: flex;
+    position: relative;
+    background: #242B33;
+    height: 400px;
+    justify-content: center;
+}
+
+.testimonials .conteiner {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    column-gap: 124px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.testimonials .conteiner .logo{
+    position: absolute;
+    margin-left: 900px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');

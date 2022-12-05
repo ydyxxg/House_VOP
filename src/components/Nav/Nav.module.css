@@ -1,0 +1,17 @@
+.Nav {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    column-gap: 70px;
+}
+
+.Nav a {
+    position: relative;
+    color: white;
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}

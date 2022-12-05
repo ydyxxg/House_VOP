@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    background: #2D343C;
+    height: 272px;
+    justify-content: center;
+}
+
+.footer .conteiner {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 150px;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.footer .conteiner .menu {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 12px;
+
+}
+
+.footer .conteiner .menu svg {
+    margin-right: 20px;
+}
+
+.footer .conteiner .menu .important{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #D4C17F;
+}

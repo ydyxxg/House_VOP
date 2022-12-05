@@ -1,0 +1,86 @@
+.cta {
+    display: flex;
+    background: url(../../assets/img/Cta_fon.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 440px;
+    justify-content: center;
+}
+
+.cta .conteiner {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    column-gap: 35px;
+    width: 1120px;
+    color: white;
+    margin: auto;
+}
+
+.cta .conteiner .text span {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    color: #D4C17F;
+}
+
+.cta .conteiner .text p {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.cta .conteiner .input {
+    display: grid;
+    grid-auto-flow: row;
+    height: 135px;
+    margin-top: 10px;
+}
+
+.cta .conteiner .input input {
+    width: 255px;
+    height: 50px;
+    background: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.151);
+    text-align: center;
+    border: none;
+}
+
+.cta .conteiner .input input::-webkit-input-placeholder { 
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #BEBEBE;
+}
+
+
+.cta .conteiner .input button{
+    width: 255px;
+    height: 50px;
+    border: none;
+    background: #D4C17F;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cta .conteiner .input_conteiner {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 35px;
+}
+
+.cta .conteiner .input_conteiner p {
+    width: 255px;
+    height: 28px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+.appartments {
+    display: flex;
+
+    background: #242B33;
+    height: 900px;
+    justify-content: center;
+}
+
+.appartments .conteiner {
+    display: grid;
+    grid-auto-flow:row;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.appartments .conteiner .logo{
+    position: absolute;
+    margin-top: 115px;
+    margin-left: -300px;
+}
+
+.main_conteiner1, .main_conteiner2, .main_conteiner3, .main_conteiner4{
+    transition: all 0.3s linear; 
+}
+
+
+.appartments .conteiner .main_conteiner1:hover{
+    transform: scale(1.1);
+}
+
+.appartments .conteiner .main_conteiner2:hover{
+    transform: scale(1.1);
+}
+
+.appartments .conteiner .main_conteiner3:hover{
+    transform: scale(1.1);
+}
+
+.appartments .conteiner .main_conteiner4:hover{
+    transform: scale(1.1);
+}
+
+.appartments .conteiner span {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    color: #D4C17F;
+    text-align: left;
+}
+
+.appartments .conteiner .loft_3 {
+    margin-top: 60px;  
+}
+
+.appartments .conteiner .loft_2 {
+    margin-top: 30px; 
+}
+
+.appartments .conteiner .loft_3, .loft_2 {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.appartments .conteiner svg{
+    width: 540px;
+    height: 320px;
+}
+
+.appartments .conteiner p{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 50px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 24px;
+}
+

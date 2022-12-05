@@ -1,0 +1,28 @@
+.video {
+    display: flex;
+    background: #242B33;
+    height: 840px;
+    justify-content: center;
+}
+
+.video .video_img {
+    position: relative;
+    margin-top: 113px;
+}
+
+.video .video_img svg {
+    width: 719px;
+    height: 650px;
+}
+
+.video .video_play svg {
+    position: absolute;
+    margin-top: 370px;
+    margin-left: -410px;
+}
+
+.video .logo {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 1110px;
+}

@@ -1,0 +1,34 @@
+.maps {
+    display: flex;
+    position: relative;
+    background: #242B33;
+    height: 600px;
+    justify-content: center;
+}
+
+.maps .conteiner {
+    margin: auto;
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 30px;
+}
+
+.maps .conteiner .logo {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -150px;
+}
+
+.maps span {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    color: #D4C17F;
+}
+
+.maps .conteiner iframe {
+    margin-top: 50px;
+    width: 1110px;
+    height: 360px;
+    border: none;
+}
